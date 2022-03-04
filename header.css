@@ -1,0 +1,70 @@
+html, head, body, .card {
+    background-color: #001540;
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: .5rem 0 1rem 0;
+    border-color: white;
+    border-radius: 2px;
+}
+
+.card .card-body {
+    padding: 1.5rem;
+}
+
+.Select, .Select-control, .Select-value-label, .Select-value-icon, .Select-input, .Select--single {
+    background-color: #001540 !important;
+    color: white !important;
+}
+
+.Select-value, .Select--multi, .Select-value-icon {
+    border: none !important;
+}
+
+.Select-value-icon:hover {
+    color: rgba(207, 207, 207, 0.5) !important;
+}
+
+.Select-menu-outer {
+    background-color: #001540 !important;
+    border: 1px solid gray !important;
+    cursor: pointer;
+}
+
+.Select-input>input {
+    color: gray;
+}
+
+.rc-slider-mark-text-active {
+    color: lightgrey;
+}
+
+.rc-slider-dot, .rc-slider-dot-active {
+    background-color: white;
+    border: 3px solid white;
+}
+
+.rc-slider-rail {
+    background-color: #001540 !important;
+}
+
+.rc-slider-track {
+    background-color: white !important;
+}
+
+.rc-slider-handle {
+    background-color: #001540 !important;
+    border-color: white;
+}
+
+.js-plotly-plot .plotly .cursor-crosshair, .js-plotly-plot .plotly .cursor-pointer {
+    cursor: crosshair !important;
+}
